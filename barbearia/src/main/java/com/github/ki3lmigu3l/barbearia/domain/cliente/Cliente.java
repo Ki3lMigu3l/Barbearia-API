@@ -19,4 +19,9 @@ public class Cliente {
     private String email;
     private String telefone;
 
+//    public Cliente(DadosCadastroCliente dados) {
+//        this.nome = dados.nome();
+//        this.email = dados.email();
+//        this.telefone = dados.telefone();
+//    }
 }
