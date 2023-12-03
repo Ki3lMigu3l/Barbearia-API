@@ -9,4 +9,7 @@ public record DadosDetalhamentoAgendamento(
         Long idCorte,
         LocalDateTime data
 ) {
+    public DadosDetalhamentoAgendamento(Agendamento agendamento) {
+        this(agendamento.getId(), agendamento.getCliente().getId(), agendamento.getCorte().getId(), agendamento.getData());
+    }
 }

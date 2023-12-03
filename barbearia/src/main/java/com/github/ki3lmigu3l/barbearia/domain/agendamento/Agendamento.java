@@ -28,5 +28,5 @@ public class Agendamento {
     @JoinColumn(name = "corte_id")
     private CorteDeCabelo corte;
 
-    private LocalDateTime dataHora;
+    private LocalDateTime data;
 }

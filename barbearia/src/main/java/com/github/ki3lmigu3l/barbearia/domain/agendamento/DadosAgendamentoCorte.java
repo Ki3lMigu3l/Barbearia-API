@@ -6,11 +6,10 @@ import jakarta.validation.constraints.NotNull;
 import java.time.LocalDateTime;
 
 public record DadosAgendamentoCorte(
-        Long idCorte,
 
         @NotNull
         Long idCliente,
-
+        Long idCorte,
         @NotNull
         @Future
         LocalDateTime data
