@@ -20,4 +20,8 @@ public class CorteDeCabelo {
     private String nome;
     private BigDecimal preco;
 
+    public CorteDeCabelo(DadosCadastroCorte dados) {
+        this.nome = dados.nome();
+        this.preco = dados.preco();
+    }
 }
